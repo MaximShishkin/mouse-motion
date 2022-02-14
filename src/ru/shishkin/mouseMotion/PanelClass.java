@@ -1,4 +1,4 @@
-package mousemotion;
+package ru.shishkin.mouseMotion;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -6,12 +6,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.time.LocalDateTime;
 import java.util.Random;
-
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-public class Panel extends JPanel {
+public class PanelClass extends JPanel {
 	
 	Robot rob;
 	int x=400,y=350;
@@ -24,22 +23,22 @@ public class Panel extends JPanel {
 			
 			if (time.getMinute() % 2 == 0) {
 				rob.mouseMove(x+rnd.nextInt(200), y+rnd.nextInt(150));
-				System.out.println("WOW! чётное");
+				System.out.println("WOW! пїЅпїЅпїЅпїЅпїЅпїЅ");
 			}
 			else {
 				rob.mouseMove(x-rnd.nextInt(200), y-rnd.nextInt(150));
-				System.out.println("WOW! нечётное");
+				System.out.println("WOW! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 			}
 	    }
     });
 	
-	Panel()
+	PanelClass()
 	{
 		
 		try {
 			rob=new Robot();
 		} catch (AWTException e) {
-			// TODO Автоматически созданный блок catch
+			// TODO пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ catch
 			e.printStackTrace();
 		}
 		
