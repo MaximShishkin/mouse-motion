@@ -11,11 +11,11 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class Panel extends JPanel {
-    Robot rob;
-    int x = 400, y = 350;
-    Random rnd = new Random();
+    private Robot rob;
+    private int x = 400, y = 350;
+    private Random rnd = new Random();
 
-    Timer timer = new Timer(30000, new ActionListener() {
+    private Timer timer = new Timer(30000, new ActionListener() {
         public void actionPerformed(ActionEvent ev) {
             LocalDateTime time = LocalDateTime.now();
 
@@ -28,7 +28,6 @@ public class Panel extends JPanel {
     });
 
     Panel() {
-
         try {
             rob = new Robot();
         } catch (AWTException e) {
