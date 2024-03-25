@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.shishkin.maxim</groupId>
-    <artifactId>MouseMovement</artifactId>
+    <artifactId>mouse-movement</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -25,7 +25,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>ru.shishkin.maxim.gaussSeidelMethod.App</mainClass>
+                            <mainClass>ru.shishkin.maxim.mouseMovement.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

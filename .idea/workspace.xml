@@ -21,9 +21,11 @@
   "keyToString": {
     "Maven.MouseMovement [clean].executor": "Run",
     "Maven.MouseMovement [install].executor": "Run",
+    "Maven.mouse-movement [clean].executor": "Run",
+    "Maven.mouse-movement [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/gitt/mouse-movement/mouse-movement/src/main/java/ru/shishkin/maxim/mouseMovement",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/gitt/mouse-movement",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
